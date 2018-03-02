@@ -1,7 +1,11 @@
 ## Features
 
-* GDAX Price Pulls
+* GDAX Order Pulls - Bids & Asks
 * Nothing else
+
+## Upcoming
+
+* GDAX Price Pulls with Websocket
 
 ## Install Dependencies
 
@@ -9,8 +13,14 @@
 npm install gdax
 ```
 
-## Run Script
+## Pull Order Books from WEB API
 
 ```bash
-node pullgdax.js
+node gdaxOrderBook.js
+```
+
+## Websocket Request Prices
+
+```bash
+node websocket.js
 ```

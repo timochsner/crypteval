@@ -2,8 +2,8 @@ const Gdax = require('gdax');
 const publicClient = new Gdax.PublicClient('https://api.gdax.com');
 
 /* Print Copyrights & Title */
-var hello = require('./hello.js');
-hello.title();
+var header = require('./header.js');
+header.title();
 
 /* ... */
 publicClient.getProductOrderBook(
