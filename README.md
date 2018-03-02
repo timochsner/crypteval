@@ -13,14 +13,12 @@
 npm install gdax
 ```
 
-## Pull Order Books from WEB API
+## Execute
 
 ```bash
 node gdaxOrderBook.js
 ```
 
-## Websocket Request Prices
-
 ```bash
-node websocket.js
+node gdaxHeartbeatTicker.js
 ```
