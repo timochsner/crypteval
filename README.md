@@ -1,11 +1,12 @@
 ## Features
 
 * GDAX Order Pulls - Bids & Asks
+* GDAX Price Pulls with Websocket
 * Nothing else
 
 ## Upcoming
 
-* GDAX Price Pulls with Websocket
+* 
 
 ## Install Dependencies
 
